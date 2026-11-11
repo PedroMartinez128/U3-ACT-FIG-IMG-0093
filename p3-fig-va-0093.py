@@ -16,3 +16,13 @@ x = [100,100,300,200,103]
 y = [100,400,500,200,171]
 plt.scatter(x,y,s=20,c="red")
 plt.show()
+print("\n +-+-+- Cuadro en la imagen-+-+-+")
+mi_imagen = cv2.imread("josejose_img.jpg")
+plt.imshow(mi_imagen)
+# x = [100, 100, 500, 500, 100]
+# y = [500, 100, 100, 500, 500]
+
+x = [170, 170, 380, 380, 170]
+y = [320, 100, 100, 320, 320]
+plt.plot(x,y,c="blue")
+plt.show()
